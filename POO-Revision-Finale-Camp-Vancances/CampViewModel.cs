@@ -41,9 +41,44 @@ namespace POO_Revision_Finale_Camp_Vancances
                 Allergies = "Aucune"
             }
         };
+
+        public ObservableCollection<Activite> Activites { get; set; } = new ObservableCollection<Activite>()
+        {
+            new Activite() {
+                Nom = "Tie-Dye"
+            }, new Activite() {
+                Nom = "Loup-Garou"
+            },
+            new Activite()
+            {
+                Nom = "Nerf"
+            },
+            new Activite()
+            {
+                Nom = "Lego"
+            },
+            new Activite()
+            {
+                Nom = "Dessin"
+            },
+            new Activite()
+            {
+                Nom = "Multisport"
+            } 
+        };
+
+        // TODO : Créer le constructeur du viewModel avec tout ce qui est nécessaire
+
+        // TODO : Gérer le bouton Inscription qui doit permettre d'inscrire les campeurs aux activités.
+        // Lors de l'inscription, il doit y avoir des objets sélectionnés dans les 2 grilles 
+        // On ajoute le campeur à la liste dans l'objet activité et on ajoute l'activité à la liste dans l'objet campeur
+        // Utiliser une fonction anonyme pour désactiver le bouton si les 2 objets ne sont pas sélectionnés.
         
         public event PropertyChangedEventHandler? PropertyChanged;
 
         // TODO : Ajouter OnPropretyChanged au besoin
+
+
+        // TODO : Version longue : Ajouter la logique nécessaire pour vos ajouts à l'interface utilisateur.
     }
 }

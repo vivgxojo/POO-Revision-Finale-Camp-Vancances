@@ -5,16 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POO_Revision_Finale_Camp_Vancances"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="800">
     <!-- TODO : Ajouter le viewModel dans le contexte -->
     <Grid>
-
         <!-- TODO : Afficher les détails du Camp : Nom et Lieu -->
-        
-        <!-- TODO : Afficher la liste de Campeurs -->
+
+        <!-- TODO : Afficher la liste de Campeurs et la liste d'activités -->
+        <!-- TODO : Afficher un bouton pour permettre d'inscrire les campeurs aux activités.-->
+        <!-- TODO : Voir image campeurs.png pour une partie de l'interfce wpf attendu -->
         
         <!-- TODO : Afficher le nombre de Campeur vs la Capacité, ex 22/30 -->
+
+        <!-- TODO : Implémenter le binding sur tous les objets.-->
         
-        
+        <!-- TODO : Version longue : ajouter tout autre éléments que vous voulez
+                    je vous suggère d'utiliser différents tab -->
+
     </Grid>
 </Window>
